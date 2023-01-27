@@ -28,11 +28,6 @@ args = parser.parse_args()
 PORT = args.PORT
 HOST = 'localhost'
 
-# THIS IS A NEW COMMENT
-# THIS IS A SECOND NEW COMMENT
-
-# THIS IS A 3RD COMMENT IN A NEW BRANCH CALLED FEATURE1
-
 # get app to serve static files from the public directory
 app = Flask(__name__, static_url_path=f'/', static_folder='./static')
 
